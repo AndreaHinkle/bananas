@@ -171,15 +171,15 @@ h3 { font-size: 28px; font-size: 2.8rem; line-height: 1.3;  letter-spacing: .1re
   border-top-right-radius: 8px;
   border-top-left-radius: 8px;
   padding: 20px;
+
 }
-
-
 
 #pricing .body {
   background: #F1F1F1;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 #pricing h2 {
@@ -272,16 +272,7 @@ h3 { font-size: 28px; font-size: 2.8rem; line-height: 1.3;  letter-spacing: .1re
   border-color: #284651;
   }
 
-#contact .button.button-primary, button.button-primary, input[type="submit"].button-primary, input[type="reset"].button-primary, input[type="button"].button-primary {
 
-/* Larger than phablet */
-@media (min-width: 550px) {
-h1 { font-size: 50px; font-size: 5.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
-h2 { font-size: 37px; font-size: 3.7rem; line-height: 1.25; letter-spacing: -.1rem; }
-h3 { font-size: 28px; font-size: 2.8rem; line-height: 1.3;  letter-spacing: -.1rem; }
-.padded-left {padding-left: 10px; padding-right: 0px;}
-.padded-right { padding-right: 10px; padding-left: 0px;}
-}
 
 /*----------- About Row----------------*/
 
@@ -299,7 +290,7 @@ h3 { font-size: 28px; font-size: 2.8rem; line-height: 1.3;  letter-spacing: -.1r
 
 #about ul {list-style-type: square;}
 
-/*----------- About Row----------------*/
+/*----------- Footer Row----------------*/
 
 #footer {
   background-color: #284651;
@@ -314,7 +305,13 @@ h3 { font-size: 28px; font-size: 2.8rem; line-height: 1.3;  letter-spacing: -.1r
 @media (min-width: 400px) {}
 
 /* Larger than phablet */
-@media (min-width: 550px) {}
+@media (min-width: 550px) {
+  h1 { font-size: 50px; font-size: 5.0rem; line-height: 1.2;  letter-spacing: -.1rem;}
+  h2 { font-size: 37px; font-size: 3.7rem; line-height: 1.25; letter-spacing: -.1rem; }
+  h3 { font-size: 28px; font-size: 2.8rem; line-height: 1.3;  letter-spacing: -.1rem; }
+  .padded-left {padding-left: 10px; padding-right: 0px;}
+  .padded-right { padding-right: 10px; padding-left: 0px;}
+}
 
 /* Larger than tablet */
 @media (min-width: 750px) {
@@ -324,9 +321,12 @@ h3 { font-size: 28px; font-size: 2.8rem; line-height: 1.3;  letter-spacing: -.1r
 
 
 /* Larger than desktop */
-@media (min-width: 1000px) {}
+@media (min-width: 900px) {}
+
 
 /* Larger than Desktop HD */
 @media (min-width: 1200px) {}
+ZA
+
 
 
