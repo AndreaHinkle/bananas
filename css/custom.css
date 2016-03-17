@@ -61,6 +61,8 @@ h3 { font-size: 28px; font-size: 2.8rem; line-height: 1.3;  letter-spacing: .1re
     color: #15487A;
     padding: 0 10px;
     text-decoration: none;
+    height: 70px;
+    line-height: 70px;
 }
 
 #navigation ul a:hover {
